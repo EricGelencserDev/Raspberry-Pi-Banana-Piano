@@ -5,43 +5,43 @@ const MPR121 = require('adafruit-mpr121'),
 // listen for touch events
 mpr121.on('touch', (pin) =>{
 	if (pin === 0){
-		player.play('./c1.mp3');
+		player.play('./c1.wav')
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 1){
-		player.play('./c1s.mp3');
+		player.play('./c1s.wav')
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 2){
-		player.play('./d1.mp3');
+		player.play('./d1.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 3){
-		player.play('./d1s.mp3');
+		player.play('./d1s.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 4){
-		player.play('./e1.mp3');
+		player.play('./e1.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 5){
-		player.play('./f1.mp3');
+		player.play('./f1.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 6){
-		player.play('./f1s.mp3');
+		player.play('./f1s.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 7){
-		player.play('./g1.mp3');
+		player.play('./g1.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 8){
-		player.play('./g1s.mp3');
+		player.play('./g1s.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 9){
-		player.play('./a1.mp3');
+		player.play('./a1.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 10){
-		player.play('./a1s.mp3');
+		player.play('./a1s.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 11){
-		player.play('./b1.mp3');
+		player.play('./b1.wav');
 		console.log(`pin ${pin} touched`);
 	}else if ( pin === 12){
-		player.play('./c2.mp3');
+		player.play('./c2.wav');
 		console.log(`pin ${pin} touched`);
 	}
 });
